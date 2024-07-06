@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="ar">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+  <title>بوابة نتيجتك</title>
+  <style>
+    body {
+      margin: 0%;
+    }
+
+    .contenar {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      background-color: rgba(243, 239, 184, 0.907);
+    }
+
+    form {
+      gap: 30px;
+      font-size: large;
+      background-color: rgb(251, 255, 199);
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 1px 1px 30px rgba(24, 27, 1, 0.87);
+      font-weight: 800;
+    }
+
+    input {
+      font-size: 20px;
+      padding: 3px;
+      margin-bottom: 10px;
+      width: 100%;
+    }
+
+    input[type=submit] {
+      background-color: rgba(0, 0, 0, 0.907);
+      color: white;
+      border: 0.1px solid black;
+    }
+
+    input[type=submit]:hover {
+      background-color: rgb(50, 9, 255);
+      cursor: pointer;
+      transition-duration: 0.3s;
+    }
+
+    .title {
+      font-size: large;
+      background-color: rgba(243, 239, 184, 0.907);
+      text-align: center;
+      padding: 20px;
+    }
+
+    div.title h1 {
+      color: red;
+    }
+
+    div.title h3 {
+      color: rgb(185, 6, 6);
+    }
+
+    .natega {
+      width: 100%;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header id="home">
+    <div class="navbar">
+      <nav>
+        <a id="a">بوابة نتيجتك</a>
+        <ul>
+          <h1>
+            لعرض جميع نتائج الجامعات و المعاهد العليا و المتوسطة
+          </h1>
+        </ul>
+      </nav>
+    </div>
+
+  </header>
+
+  <div class="contenar">
+    <div class="title">
+      <h2 class="mm">رسميا نتيجة الفرقة الثانية بالمعهد العالي للتعاون الزراعي - شبرا الخيمة</h2>
+      <h4>الفصل الدراسي الثاني 2023 / 2024</h4>
+      <h3>هااام .. يرجى العلم بأن هذه النتيجة خاصة بالفرقة الثانية فقط علما بأنه سيتم إضافة جميع الفرق لاحقًا.</h3>
+      <h1>لعرض نتيجتك قم بإدخال البيانات التالية:</h1>
+    </div>
+    <form method="post" action="file:///E:/sattar%20protofilio/natega.html">
+      <label for="text">اسم الطالب رباعي باللغة العربية:</label>
+      <input id="text" type="text" required placeholder="اسم الطالب">
+      <label for="number">رقم الجلوس:</label>
+     <input id="number" type="number" minlength="5" maxlength="6" required placeholder="رقم الجلوس">
+      <label for="year">الفرقة الدراسية:</label>
+      <select name="year" id="year">
+        <option>الفرقة الثانية</option>
+      </select>
+      <label for="year2">الشعبة الدراسية:</label>
+      <select name="year2" id="year2">
+        <option>شعبة نظم ومعلومات زراعية</option>
+        <option>شعبة تسويق دولي</option>
+        <option>شعبة عامة</option>
+        <option>شعبة تربوي</option>
+      </select>
+      <input class="natega" type="submit" value="عرض النتيجة">
+    </form>
+  </div>
+
+</body>
+
+</html>

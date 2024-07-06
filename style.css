@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Fustat:wght@200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fustat:wght@200..800&family=Reem+Kufi+Ink&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Reem+Kufi:wght@400..700&display=swap');
+
+.navbar{
+    font-family: "Reem Kufi", sans-serif;
+    color: rgb(255, 255, 255);
+}
+body{
+    font-family: "Cairo", sans-serif;
+}
+
+*{
+    margin: 0 ;
+    padding: 0 ;
+    box-sizing: border-box ;
+}
+body{
+    background-color:rgb(237, 250, 141);
+    height: 100vh ;
+}
+
+nav {
+    background-color: rgba(7, 7, 7, 0.761);
+    border-bottom: 1px solid #e8e8e8;
+    position: fixed ;
+    width: 100% ;
+    padding: 1.5rem 2rem ;
+}
+
+ nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+
+#a {
+    font-size: 24px;
+    font-weight: 600;
+}
+/* font-family: "Fustat", sans-serif; */
